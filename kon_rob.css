@@ -128,9 +128,15 @@ img.above1 {
 	 max-width: 700px;
 	  margin-left: auto;
   margin-right: auto;
+  margin-bottom:20px;
  }
  div.maincontainre h2 {
 	 text-align:center;
+ }
+  div.maincontainre p {
+	 text-align:justify;
+	 text-indent: 40px;
+
  }
 
  div.maincontainre img {
