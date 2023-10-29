@@ -50,6 +50,12 @@ body {
 	padding:30px;
 	
 }
+.main2 {
+	flex:70%;
+	background-color:  #ede8cbd7;
+	padding:30px;
+	
+}
 
 .footer {
   padding: 20px;
@@ -120,6 +126,24 @@ img.above1 {
 }
 
 /*---------*/
+ div.maincontainre2 {
+	 background-color:#f1edda;
+	  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.588);
+	 padding:20px;
+	 border-radius:8px;
+	 max-width: 700px;
+	  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:20px;
+ }
+  div.maincontainre2 img {
+   max-width: 100%;
+  display: block;
+
+
+
+}
+
  div.maincontainre {
 	 background-color:#f1edda;
 	  box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.588);
@@ -140,6 +164,22 @@ img.above1 {
  }
 
  div.maincontainre img {
+   max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:3px;
+}
+
+div.sidecontainre {
+	 padding:10px;
+	 border-radius:8px;
+	 max-width: 700px;
+	  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:45px;
+ }
+  div.sidecontainre img {
    max-width: 50%;
   display: block;
   margin-left: auto;
@@ -148,5 +188,45 @@ img.above1 {
 }
 
 /*-----------*/
+
+
+.filterDiv {
+  float: left; 
+  height: 150px;
+  width: 200px;
+  line-height: 100px;
+  margin: 5px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container2 {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #ada18b;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c7cdc4;
+}
+
+.btn.active {
+  background-color: #42493b;
+  color: white;
+}
+
+/* ------- */
+
 
 
